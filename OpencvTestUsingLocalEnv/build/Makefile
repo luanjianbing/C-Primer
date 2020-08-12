@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmtsai/CentOSAndLinuxRecord/OpencvTest
+CMAKE_SOURCE_DIR = /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmtsai/CentOSAndLinuxRecord/OpencvTest/build
+CMAKE_BINARY_DIR = /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,9 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmtsai/CentOSAndLinuxRecord/OpencvTest/build/CMakeFiles /home/dmtsai/CentOSAndLinuxRecord/OpencvTest/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv/build/CMakeFiles /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmtsai/CentOSAndLinuxRecord/OpencvTest/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -102,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named OpencvTest
+# Target rules for targets named OpencvTestUsingLocalEnv
 
 # Build rule for target.
-OpencvTest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 OpencvTest
-.PHONY : OpencvTest
+OpencvTestUsingLocalEnv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 OpencvTestUsingLocalEnv
+.PHONY : OpencvTestUsingLocalEnv
 
 # fast build rule for target.
-OpencvTest/fast:
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/build
-.PHONY : OpencvTest/fast
+OpencvTestUsingLocalEnv/fast:
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/build
+.PHONY : OpencvTestUsingLocalEnv/fast
 
 src/Solution.o: src/Solution.cpp.o
 .PHONY : src/Solution.o
 
 # target to build an object file
 src/Solution.cpp.o:
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/src/Solution.cpp.o
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/src/Solution.cpp.o
 .PHONY : src/Solution.cpp.o
 
 src/Solution.i: src/Solution.cpp.i
@@ -127,7 +127,7 @@ src/Solution.i: src/Solution.cpp.i
 
 # target to preprocess a source file
 src/Solution.cpp.i:
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/src/Solution.cpp.i
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/src/Solution.cpp.i
 .PHONY : src/Solution.cpp.i
 
 src/Solution.s: src/Solution.cpp.s
@@ -135,7 +135,7 @@ src/Solution.s: src/Solution.cpp.s
 
 # target to generate assembly for a file
 src/Solution.cpp.s:
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/src/Solution.cpp.s
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/src/Solution.cpp.s
 .PHONY : src/Solution.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -143,7 +143,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -151,7 +151,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -159,7 +159,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -168,7 +168,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... OpencvTest"
+	@echo "... OpencvTestUsingLocalEnv"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... src/Solution.o"

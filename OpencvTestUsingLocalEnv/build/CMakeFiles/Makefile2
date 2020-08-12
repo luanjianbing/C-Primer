@@ -50,44 +50,44 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dmtsai/CentOSAndLinuxRecord/OpencvTest
+CMAKE_SOURCE_DIR = /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dmtsai/CentOSAndLinuxRecord/OpencvTest/build
+CMAKE_BINARY_DIR = /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/OpencvTest.dir
+# Target rules for target CMakeFiles/OpencvTestUsingLocalEnv.dir
 
 # All Build rule for target.
-CMakeFiles/OpencvTest.dir/all:
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/depend
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dmtsai/CentOSAndLinuxRecord/OpencvTest/build/CMakeFiles  1 2
-	@echo "Built target OpencvTest"
-.PHONY : CMakeFiles/OpencvTest.dir/all
+CMakeFiles/OpencvTestUsingLocalEnv.dir/all:
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/depend
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv/build/CMakeFiles  1 2
+	@echo "Built target OpencvTestUsingLocalEnv"
+.PHONY : CMakeFiles/OpencvTestUsingLocalEnv.dir/all
 
 # Include target in all.
-all: CMakeFiles/OpencvTest.dir/all
+all: CMakeFiles/OpencvTestUsingLocalEnv.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/OpencvTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmtsai/CentOSAndLinuxRecord/OpencvTest/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpencvTest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmtsai/CentOSAndLinuxRecord/OpencvTest/build/CMakeFiles 0
-.PHONY : CMakeFiles/OpencvTest.dir/rule
+CMakeFiles/OpencvTestUsingLocalEnv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OpencvTestUsingLocalEnv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dmtsai/CentOSAndLinuxRecord/OpencvTestUsingLocalEnv/build/CMakeFiles 0
+.PHONY : CMakeFiles/OpencvTestUsingLocalEnv.dir/rule
 
 # Convenience name for target.
-OpencvTest: CMakeFiles/OpencvTest.dir/rule
-.PHONY : OpencvTest
+OpencvTestUsingLocalEnv: CMakeFiles/OpencvTestUsingLocalEnv.dir/rule
+.PHONY : OpencvTestUsingLocalEnv
 
 # clean rule for target.
-CMakeFiles/OpencvTest.dir/clean:
-	$(MAKE) -f CMakeFiles/OpencvTest.dir/build.make CMakeFiles/OpencvTest.dir/clean
-.PHONY : CMakeFiles/OpencvTest.dir/clean
+CMakeFiles/OpencvTestUsingLocalEnv.dir/clean:
+	$(MAKE) -f CMakeFiles/OpencvTestUsingLocalEnv.dir/build.make CMakeFiles/OpencvTestUsingLocalEnv.dir/clean
+.PHONY : CMakeFiles/OpencvTestUsingLocalEnv.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/OpencvTest.dir/clean
+clean: CMakeFiles/OpencvTestUsingLocalEnv.dir/clean
 .PHONY : clean
 
 #=============================================================================

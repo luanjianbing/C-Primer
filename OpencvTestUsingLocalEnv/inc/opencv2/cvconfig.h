@@ -62,7 +62,7 @@
 /* #undef HAVE_DC1394 */
 
 /* IEEE1394 capturing support - libdc1394 v2.x */
-/* #undef HAVE_DC1394_2 */
+#define HAVE_DC1394_2
 
 /* DirectX */
 /* #undef HAVE_DIRECTX */
@@ -78,19 +78,19 @@
 /* #undef HAVE_EIGEN */
 
 /* FFMpeg video library */
-/* #undef HAVE_FFMPEG */
+#define HAVE_FFMPEG
 
 /* Geospatial Data Abstraction Library */
 /* #undef HAVE_GDAL */
 
 /* GStreamer multimedia framework */
-/* #undef HAVE_GSTREAMER */
+#define HAVE_GSTREAMER
 
 /* GTK+ 2.0 Thread support */
-/* #undef HAVE_GTHREAD */
+#define HAVE_GTHREAD
 
 /* GTK+ 2.x toolkit */
-/* #undef HAVE_GTK */
+#define HAVE_GTK
 
 /* Halide support */
 /* #undef HAVE_HALIDE */
